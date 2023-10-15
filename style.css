@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.crud{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    margin: 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/******** section input ***********/
+.input input{
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.input input:focus{
+    background-color: #000;
+    transform: scale(1.1);
+}
+.allPrice{
+    display: flex;
+}
+.allPrice input{
+    width: 25%;
+}
+small{
+    background-color: #dc143c;
+    padding: 14px 3px;
+    border-radius: 5px;
+}
+small::before{
+    content: "Totel:";
+}
+.input button{
+    width:100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #1d0145;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.input button:hover{
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+/*********** section output ****************/
+.conpoment_search input{
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+.conpoment_search input:focus{
+    background-color: #000;
+    transform: scale(1.1);
+}
+.search_btn{
+    display: flex;
+    justify-content: space-between;
+}
+.search_btn button{
+    text-align: center;
+}
+.conpoment_search button{
+    border: none;
+    width: 45%;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #1d0145;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    transition: .5s;
+    
+}
+.conpoment_search button:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+table th{
+    text-transform: uppercase;
+}
+table th,td{
+    padding: 5px;
+}
+table tbody button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.5s ;
+    
+}
+table tbody button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+ #Update{
+    background-color: darkorange;
+}
+ #Delete{
+    background-color: crimson;
+}
+#deleteAll button{
+    border: none;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #1d0145;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    transition: .5s;
+    
+}
+#deleteAll button:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
